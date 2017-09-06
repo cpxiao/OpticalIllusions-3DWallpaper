@@ -12,7 +12,7 @@
         android:layout_marginBottom="20dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingBottom="60dp"
+        android:paddingBottom="50dp"
         android:paddingTop="10dp">
 
 
@@ -90,7 +90,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <include layout="@layout/layout_ads"/>
+    <!--<include layout="@layout/layout_ads"/>-->
 
 
 </LinearLayout>

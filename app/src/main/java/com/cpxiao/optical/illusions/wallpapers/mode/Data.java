@@ -6,7 +6,6 @@ import com.cpxiao.R;
 import java.util.ArrayList;
 
 
-
 /**
  * @author cpxiao on 2017/05/22.
  */
@@ -40,6 +39,11 @@ public class Data {
                 R.drawable._3d_49, R.drawable._3d_50,
                 R.drawable._3d_51, R.drawable._3d_52,
                 R.drawable._3d_53, R.drawable._3d_54,
+                R.drawable._3d_55, R.drawable._3d_56,
+                R.drawable._3d_57, R.drawable._3d_58,
+                R.drawable._3d_59, R.drawable._3d_60,
+                R.drawable._3d_61, R.drawable._3d_62,
+                R.drawable._3d_63
         };
 
         ArrayList<Integer> arrayList = new ArrayList<>();

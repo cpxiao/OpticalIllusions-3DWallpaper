@@ -1,8 +1,8 @@
 //{
-//  "ad_position": 3,
+//  "ad_position": 0,
 //  "ad_type": 4,
 //  "ad_size": 100,
-//  "publish_id": "236636880101032_346432689121450",
+//  "publish_id": "",
 //  "place_id": ""
 //}
 
@@ -18,19 +18,73 @@
         "ad_position": 1,
         "ad_type": 2,
         "ad_size": 50,
-        "place_id": "ca-app-pub-4157365005379790/9178818159"
+        "place_id": "ca-app-pub-4157365005379790/8474778985"
       },
       {
         "ad_position": 1,
         "ad_type": 3,
         "ad_size": 50,
-        "place_id": "427714114290868_429111887484424"
+        "place_id": "427714114290868_430891600639786"
       },
       {
         "ad_position": 1,
         "ad_type": 4,
         "ad_size": 50,
+        "place_id": "427714114290868_430891513973128"
+      },
+      {
+        "ad_position": 2,
+        "ad_type": 2,
+        "ad_size": 50,
+        "place_id": "ca-app-pub-4157365005379790/9178818159"
+      },
+      {
+        "ad_position": 2,
+        "ad_type": 3,
+        "ad_size": 50,
+        "place_id": "427714114290868_429111887484424"
+      },
+      {
+        "ad_position": 2,
+        "ad_type": 4,
+        "ad_size": 50,
         "place_id": "427714114290868_429111824151097"
+      },
+      {
+        "ad_position": 3,
+        "ad_type": 2,
+        "ad_size": 50,
+        "place_id": "ca-app-pub-4157365005379790/3173161471"
+      },
+      {
+        "ad_position": 3,
+        "ad_type": 3,
+        "ad_size": 50,
+        "place_id": "427714114290868_430903793971900"
+      },
+      {
+        "ad_position": 3,
+        "ad_type": 4,
+        "ad_size": 50,
+        "place_id": "427714114290868_430903863971893"
+      },
+      {
+        "ad_position": 5,
+        "ad_type": 2,
+        "ad_size": 50,
+        "place_id": "ca-app-pub-4157365005379790/8928051030"
+      },
+      {
+        "ad_position": 5,
+        "ad_type": 3,
+        "ad_size": 50,
+        "place_id": "427714114290868_430904153971864"
+      },
+      {
+        "ad_position": 5,
+        "ad_type": 4,
+        "ad_size": 50,
+        "place_id": "427714114290868_430904120638534"
       }
     ]
   },

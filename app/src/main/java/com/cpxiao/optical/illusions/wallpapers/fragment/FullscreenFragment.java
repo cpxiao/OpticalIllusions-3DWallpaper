@@ -6,14 +6,15 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.cpxiao.R;
-import com.cpxiao.gamelib.fragment.BaseFragment;
+import com.cpxiao.gamelib.fragment.BaseZAdsFragment;
+import com.cpxiao.zads.core.ZAdPosition;
 
 
 /**
  * @author cpxiao on 2017/09/01.
  */
 
-public class FullscreenFragment extends BaseFragment {
+public class FullscreenFragment extends BaseZAdsFragment {
     public static final String ID = "ID";
     private ImageView mImageView;
 
@@ -27,6 +28,8 @@ public class FullscreenFragment extends BaseFragment {
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
+        loadZAds(ZAdPosition.POSITION_GAME);
+
         mImageView = (ImageView) view.findViewById(R.id.gif_image_view);
         Bundle bundle = getArguments();
         if (bundle != null) {

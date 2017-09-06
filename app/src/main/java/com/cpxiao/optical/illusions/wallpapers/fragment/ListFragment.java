@@ -12,8 +12,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.cpxiao.R;
-import com.cpxiao.gamelib.fragment.BaseFragment;
+import com.cpxiao.gamelib.fragment.BaseZAdsFragment;
 import com.cpxiao.optical.illusions.wallpapers.mode.Data;
+import com.cpxiao.zads.core.ZAdPosition;
 
 import java.util.ArrayList;
 
@@ -21,7 +22,7 @@ import java.util.ArrayList;
  * @author cpxiao on 2017/09/01.
  */
 
-public class ListFragment extends BaseFragment {
+public class ListFragment extends BaseZAdsFragment {
     //每行数量
     private static final int ROW_COUNT = 3;
 
@@ -38,6 +39,8 @@ public class ListFragment extends BaseFragment {
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
+        loadZAds(ZAdPosition.POSITION_LEVEL_LIST);
+
         Context context = view.getContext();
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new GridLayoutManager(context, ROW_COUNT));
