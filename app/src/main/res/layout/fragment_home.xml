@@ -4,93 +4,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fragment_home_bg"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="100dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
 
     <LinearLayout
+        style="@style/HomeLayout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginBottom="20dp"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:paddingBottom="50dp"
-        android:paddingTop="10dp">
+        android:layout_height="80dp">
 
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="20dp"
-            android:text="@string/app_name"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"/>
-
-        <LinearLayout
-            style="@style/HomeLayout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-
-            <Button
-                android:id="@+id/how_to_play"
-                style="@style/HomeBtn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/how_to_play"/>
-
-            <Button
-                android:id="@+id/tips"
-                style="@style/HomeBtn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/tips"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            style="@style/HomeLayout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1">
-
-            <Button
-                android:id="@+id/play"
-                style="@style/HomeBtn"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/play"/>
-        </LinearLayout>
-
-
-        <LinearLayout
-            style="@style/HomeLayout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+        <ImageButton
+            android:id="@+id/rate_app"
+            style="@style/HomeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:visibility="gone">
+            android:contentDescription="@string/rate_app"
+            android:src="@drawable/ic_rate"/>
 
+        <ImageButton
+            android:id="@+id/share"
+            style="@style/HomeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/share"
+            android:src="@drawable/ic_share"/>
 
-            <Button
-                android:id="@+id/rating"
-                style="@style/HomeBtn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/rating"/>
+        <ImageButton
+            android:id="@+id/how_to_play"
+            style="@style/HomeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/how_to_play"
+            android:src="@drawable/ic_how_to_play"/>
 
-            <Button
-                android:id="@+id/share"
-                style="@style/HomeBtn"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="@string/share"/>
-        </LinearLayout>
+        <ImageButton
+            android:id="@+id/tips"
+            style="@style/HomeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/tips"
+            android:src="@drawable/ic_tips"/>
+
     </LinearLayout>
 
-    <!--<include layout="@layout/layout_ads"/>-->
+    <LinearLayout
+        style="@style/HomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageButton
+            android:id="@+id/play"
+            style="@style/HomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/play"
+            android:src="@drawable/ic_play"/>
+    </LinearLayout>
 
 
 </LinearLayout>

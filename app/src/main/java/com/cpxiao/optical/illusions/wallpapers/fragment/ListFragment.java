@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 public class ListFragment extends BaseZAdsFragment {
     //每行数量
-    private static final int ROW_COUNT = 3;
+    private static final int ROW_COUNT = 5;
 
     //宽高比
     private static final float ASPECT_RATIO = 0.618f;
@@ -83,7 +83,6 @@ public class ListFragment extends BaseZAdsFragment {
             if (position < 0 || position >= mDataList.size()) {
                 return;
             }
-            //            int level = PreferencesUtils.getInt(getApplicationContext(), Extra.Key.LEVEL, Extra.Key.LEVEL_DEFAULT);
 
             final int index = holder.getAdapterPosition();
             final Integer data = mDataList.get(index);
@@ -94,7 +93,7 @@ public class ListFragment extends BaseZAdsFragment {
                 @Override
                 public void onClick(View v) {
                     Bundle bundle = new Bundle();
-                    bundle.putInt(FullscreenFragment.ID, data);
+                    bundle.putInt(FullscreenFragment.RESOURCE_ID, data);
                     addFragment(FullscreenFragment.newInstance(bundle));
 
                 }

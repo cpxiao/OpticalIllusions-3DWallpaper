@@ -15,7 +15,7 @@ import com.cpxiao.zads.core.ZAdPosition;
  */
 
 public class FullscreenFragment extends BaseZAdsFragment {
-    public static final String ID = "ID";
+    public static final String RESOURCE_ID = "RESOURCE_ID";
     private ImageView mImageView;
 
     public static FullscreenFragment newInstance(Bundle bundle) {
@@ -33,10 +33,10 @@ public class FullscreenFragment extends BaseZAdsFragment {
         mImageView = (ImageView) view.findViewById(R.id.gif_image_view);
         Bundle bundle = getArguments();
         if (bundle != null) {
-            int id = bundle.getInt(ID, -1);
-            if (id != -1) {
+            int resourceId = bundle.getInt(RESOURCE_ID, -1);
+            if (resourceId != -1) {
                 Glide.with(getHoldingActivity())
-                        .load(id)
+                        .load(resourceId)
                         .into(mImageView);
             } else {
                 onDestroy();

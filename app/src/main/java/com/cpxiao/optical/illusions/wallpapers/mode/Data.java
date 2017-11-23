@@ -43,7 +43,11 @@ public class Data {
                 R.drawable._3d_57, R.drawable._3d_58,
                 R.drawable._3d_59, R.drawable._3d_60,
                 R.drawable._3d_61, R.drawable._3d_62,
-                R.drawable._3d_63
+                R.drawable._3d_63, R.drawable._3d_64,
+                R.drawable._3d_65, R.drawable._3d_66,
+                R.drawable._3d_67, R.drawable._3d_68,
+                R.drawable._3d_69, R.drawable._3d_70,
+                R.drawable._3d_71, R.drawable._3d_72,
         };
 
         ArrayList<Integer> arrayList = new ArrayList<>();

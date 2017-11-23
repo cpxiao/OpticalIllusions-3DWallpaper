@@ -7,8 +7,8 @@ android {
         applicationId "com.cpxiao.optical.illusions.wallpapers"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 121
-        versionName "1.2.1"
+        versionCode 125
+        versionName "1.2.5"
     }
 
     buildTypes {
@@ -57,14 +57,15 @@ android {
 }
 
 dependencies {
-    compile project(':AndroidUtils:library')
+    compile project(':__AndroidUtils:library')
 
     compile 'com.android.support:appcompat-v7:25.3.1'
     /**
      * Ads Start
      */
     //友盟统计
-    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.umeng.analytics:analytics:6.1.2'
+//    compile 'com.umeng.analytics:analytics:latest.integration'
     //Facebook广告
 //    compile files('libs/AudienceNetwork_v4.7.jar')
 //    compile 'com.facebook.android:audience-network-sdk:4.+'

@@ -16,7 +16,7 @@
 
     <style name="HomeBtn">
         <item name="android:background">@drawable/btn_home</item>
-        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_margin">5dp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:maxLines">1</item>
